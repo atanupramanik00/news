@@ -1,0 +1,28 @@
+.col-sm-9{
+    border: 1px solid black;
+}
+.col-sm-3{
+    border: 1px solid black;
+}
+.col-12{
+    border: 1px solid black;
+    background-color: #f2f2f2;
+}
+#side{
+    width: 70px;
+    height: 70px;
+    float: left;
+
+    
+}
+a{
+    font-size: 12px;
+    margin: 5px;
+    padding: 2px;
+}
+#tx{
+    font-size: medium;
+}
+.card-body{
+    background-color: #f2f2f2;
+}

@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>News hub</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Dropdown
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Top News</a></li>
+                <li><a class="dropdown-item" href="#">Technology</a></li>
+                <li><a class="dropdown-item" href="#">Sports</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Worldd News</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link disabled"
+                href="#"
+                tabindex="-1"
+                aria-disabled="true"
+                ></a
+              >
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Sign in</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Sign up</a>
+              </li>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <div class="container my-4">
+      <div
+        id="carouselExampleCaptions"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/Narendra-Modi.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Share tech, be ready for next health emergency: PM Modi to G20 health ministers</h5>
+              <p>
+                Prime Minister Narendra Modi was addressing the G20 Health Ministers’ meeting in Gandhinagar via video conferencing when he made the remarks.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/mamta.jpeg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Centre says no move on Bengal name change, Mamata writes to PM Modi</h5>
+              <p>
+                In her letter, Banerjee has urged the PM to get the required constitutional amendment done during the current Parliament session.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/whirlpool.png" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h5 style="color: black;">Whirlpool to Sell Embraco Compressor Business to Japan’s Nidec</h5>
+              <p style="color: black;" >
+                Home appliances maker Whirlpool Corp announced on April 24 that it is selling its Embraco compressor business to Japan’s Nidec Corp for $1.08 billion in cash, as it focuses on its consumer-facing businesses
+              </p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <div class="container my-4">
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img id="card" src="img/a1.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Ahead of iPhone 15 launch</h5>
+              <p class="card-text">
+                The iPhone 15 is expected to launch on September 12 and might be manufactured at Foxconn's plant in India. Ahead of the rumored launch, Foxconn's logistics unit Jusda has opened a new office in Tamil Nadu.<a id="tx" href="">read more...</a>
+              </p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img id="card" src="img/a2.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Top IT company employee loses over Rs 17 lakh</h5>
+              <p class="card-text">
+                A Mumbai-based software professional lost over Rs 17 lakh when he tried getting a part-time job online. He was told that his job will be related to hotel bookings.<a id="tx"href="">read more...</a>
+              </p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img id="card" src="img/a3.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">5 Best camera phones you can buy right now </h5>
+              <p class="card-text">
+                Smartphones with top-notch cameras offer advanced features like multiple lenses, high megapixel counts, and advanced image processing,allowing you to capture stunning photos on the go. <a id="tx"href="">read more...</a>
+              </p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--grid-->
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-3">
+          <div class="row">
+            <div class="col-12"><img id="side" src="img/1.jpg" alt=""> <a href="">Would Vivek Ramaswamy be Trump’s running mate? Indian-American hopeful says…</a> </div>
+          </div>
+          <div class="row">
+            <div class="col-12"><img id="side" src="img/2.jpg" alt=""> <a href="">This was Modi's last I-Day speech, next PM will be from INDIA: Priyanka Chaturvedi…</a> </div>
+          </div>
+          <div class="row">
+            <div class="col-12"><img id="side" src="img/3.jpg" alt=""> <a href="">Bank to auction Sunny Deol’s Juhu villa to recover Rs 56 crore loan. Details</a> </div>
+          </div>
+
+          <div class="row">
+            <div class="col-12"><img id="side" src="img/4.jpg" alt=""> <a href="">World Cup 2023: HCA tells BCCI it is difficult to host matches on consecutive days</a> </div>
+          </div>
+          <div class="row">
+            <div class="col-12"><img id="side" src="img/5.jpg" alt=""> <a href="">Be prepared to face consequences for abusive social media posts: Supreme Court</a> </div>
+          </div>
+          <div class="row">
+            <div class="col-12"><img id="side" src="img/6.jpg" alt=""> <a href="">After Bournvita, influencer’s viral video about drink mix Tang goes viral. Watch</a> </div>
+          </div>
+          <div class="row">
+            <div class="col-12"><img id="side" src="img/7.jpg" alt=""> <a href="">'Gadar 2' box office collection Day 9: Sunny Deol's film is unstoppable</a> </div>
+          </div>
+        </div>
+
+        <div class="col-sm-9">
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">OMG 2 box office collection Day 9:</h5>
+                  <p class="card-text">
+                    Amid the frenzy surrounding Gadar 2, Akshay Kumar and Pankaj Tripathi's film is swimming safely as it already crossed Rs 100 crore at the box office.
+                  </p>
+                  <a href="#" class="btn btn-primary">read more...</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Jailer box office collection Day 10:</h5>
+                  <p class="card-text" id="t2" >
+                    Rajinikanth-Tamannah Bhatia's film crossed Rs 500 crore worldwide on Saturday. In the Indian market, the film also saw a massive spike on its on second weekend.
+                  </p>
+                  <a href="#" class="btn btn-primary">read more...</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row my-3">
+            <div class="col-sm-6">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Citing mean income rise</h5>
+                  <p class="card-text" id="t3" >
+                    Modi in his LinkedIn post also said that the SBI report shows that the smaller states, especially from the northeast, namely Manipur, Mizoram, and Nagaland, have “exhibited an admirable growth of over 20% in ITR filings in the last 9 years”.
+                  </p>
+                  <a href="#" class="btn btn-primary">read more...</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">NCCF, NAFED to sell tomatoes at Rs 40 per kg from Sunday</h5>
+                  <p class="card-text  "  id="t4"  >
+                    Since last month, the National Cooperative Consumers' Federation of India (NCCF) and National Agricultural Cooperative Marketing Federation of India Ltd (NAFED) have been selling tomatoes at a discounted rate on behalf of the Consumer Affairs Ministry
+                  </p>
+                  <a href="#" class="btn btn-primary">read more...</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container my-5">
+      <!-- Footer -->
+      <footer class="text-center text-white bg-dark " style="width: 101%;" >
+        <!-- Grid container -->
+        <div class="container">
+          <!-- Section: Links -->
+          <section class="mt-5">
+            <!-- Grid row-->
+            <div class="row text-center d-flex justify-content-center pt-5">
+              <!-- Grid column -->
+              <div class="col-md-2">
+                <h6 class="text-uppercase font-weight-bold">
+                  <a href="#!" class="text-white">About us</a>
+                </h6>
+              </div>
+              <!-- Grid column -->
+    
+              <!-- Grid column -->
+              <div class="col-md-2">
+                <h6 class="text-uppercase font-weight-bold">
+                  <a href="#!" class="text-white">Products</a>
+                </h6>
+              </div>
+              <!-- Grid column -->
+    
+              <!-- Grid column -->
+              <div class="col-md-2">
+                <h6 class="text-uppercase font-weight-bold">
+                  <a href="#!" class="text-white">Awards</a>
+                </h6>
+              </div>
+              <!-- Grid column -->
+    
+              <!-- Grid column -->
+              <div class="col-md-2">
+                <h6 class="text-uppercase font-weight-bold">
+                  <a href="#!" class="text-white">Help</a>
+                </h6>
+              </div>
+              <!-- Grid column -->
+    
+              <!-- Grid column -->
+              <div class="col-md-2">
+                <h6 class="text-uppercase font-weight-bold">
+                  <a href="#!" class="text-white">Contact</a>
+                </h6>
+              </div>
+              <!-- Grid column -->
+            </div>
+            <!-- Grid row-->
+          </section>
+          <!-- Section: Links -->
+    
+          <hr class="my-5" />
+    
+          <!-- Section: Text -->
+          <section class="mb-5">
+            <div class="row d-flex justify-content-center">
+              <div class="col-lg-8">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
+                  distinctio earum repellat quaerat voluptatibus placeat nam,
+                  commodi optio pariatur est quia magnam eum harum corrupti
+                  dicta, aliquam sequi voluptate quas.
+                </p>
+              </div>
+            </div>
+          </section>
+          <!-- Section: Text -->
+    
+          <!-- Section: Social -->
+          <section class="text-center mb-5">
+            <a href="" class="text-white me-4">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="" class="text-white me-4">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="" class="text-white me-4">
+              <i class="fab fa-google"></i>
+            </a>
+            <a href="" class="text-white me-4">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="" class="text-white me-4">
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="" class="text-white me-4">
+              <i class="fab fa-github"></i>
+            </a>
+          </section>
+          <!-- Section: Social -->
+        </div>
+        <!-- Grid container -->
+    
+        <!-- Copyright -->
+        <div
+             class="text-center p-3"
+             style="background-color: rgba(0, 0, 0, 0.2)"
+             >
+          © 2023 Copyright:
+          <a class="text-white" href=""
+             >Newshub.com</a
+            >
+        </div>
+        <!-- Copyright -->
+      </footer>
+      <!-- Footer -->
+    </div>
+    <!-- End of .container -->
+  </body>
+</html>
